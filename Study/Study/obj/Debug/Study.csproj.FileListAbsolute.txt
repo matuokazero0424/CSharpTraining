@@ -1,0 +1,7 @@
+C:\Users\Matuo\Documents\GitTraining\Study\Study\bin\Debug\Study.exe.config
+C:\Users\Matuo\Documents\GitTraining\Study\Study\bin\Debug\Study.exe
+C:\Users\Matuo\Documents\GitTraining\Study\Study\bin\Debug\Study.pdb
+C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.csproj.AssemblyReference.cache
+C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
+C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.exe
+C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.pdb
