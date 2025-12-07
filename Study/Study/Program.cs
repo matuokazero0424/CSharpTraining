@@ -10,12 +10,11 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            int beforeWeight = 45;
-            int afterWeight;
-            int potetoCalorie = 10;
-            
-            afterWeight = beforeWeight + potetoCalorie;
-            Console.WriteLine("ジオくんの体重は{0}kgになっちゃった",afterWeight);
+            float realHeight = 169.5f;
+            int scamHeight = (int)realHeight;
+            Console.WriteLine("正確な身長は{0}です",realHeight);
+            Console.WriteLine("ざっくり身長は{0}です",scamHeight); 
+
         }
     }
 }
