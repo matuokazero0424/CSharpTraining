@@ -10,11 +10,9 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            float realHeight = 169.5f;
-            int scamHeight = (int)realHeight;
-            Console.WriteLine("正確な身長は{0}です",realHeight);
-            Console.WriteLine("ざっくり身長は{0}です",scamHeight); 
-
+            string tmpText = "未来最高！！";
+            Console.WriteLine(tmpText);
+            Console.WriteLine(tmpText + "オマエも未来最高と叫びなさい!!!");
         }
     }
 }
