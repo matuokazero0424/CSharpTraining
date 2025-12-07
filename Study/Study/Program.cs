@@ -10,28 +10,17 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            int[] testScore = {100, 92, 71, 69, 55 };
-            for(int j = 0; j < testScore.Length; j++)
+            
+        }
+
+        private static void SumFunc()
+        {
+            int sumNumber = 0;
+            for(int i = 0; i <= 10; i++)
             {
-               switch(j)
-                {
-                    case 0: 
-                        Console.WriteLine("国語の点数は{0}点です",testScore[j]); 
-                        break;
-                    case 1:
-                        Console.WriteLine("社会の点数は{0}点です", testScore[j]);
-                        break;
-                    case 2:
-                        Console.WriteLine("数学の点数は{0}点です", testScore[j]);
-                        break;
-                    case 3:
-                        Console.WriteLine("理科の点数は{0}点です", testScore[j]);
-                        break;
-                    case 4:
-                        Console.WriteLine("英語の点数は{0}点です", testScore[j]);
-                        break;
-                }
+                sumNumber += i;
             }
+            Console.WriteLine(sumNumber);
         }
     }
 }
