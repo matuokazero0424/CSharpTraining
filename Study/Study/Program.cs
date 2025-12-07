@@ -13,13 +13,23 @@ namespace Study
             int[] testScore = {100, 92, 71, 69, 55 };
             for(int j = 0; j < testScore.Length; j++)
             {
-                if(testScore[j] % 2 == 0)
+               switch(j)
                 {
-                    Console.WriteLine("{0}は偶数です", testScore[j]);
-                }
-                else
-                {
-                    Console.WriteLine("{0}は奇数です", testScore[j]);
+                    case 0: 
+                        Console.WriteLine("国語の点数は{0}点です",testScore[j]); 
+                        break;
+                    case 1:
+                        Console.WriteLine("社会の点数は{0}点です", testScore[j]);
+                        break;
+                    case 2:
+                        Console.WriteLine("数学の点数は{0}点です", testScore[j]);
+                        break;
+                    case 3:
+                        Console.WriteLine("理科の点数は{0}点です", testScore[j]);
+                        break;
+                    case 4:
+                        Console.WriteLine("英語の点数は{0}点です", testScore[j]);
+                        break;
                 }
             }
         }
