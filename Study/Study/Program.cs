@@ -10,8 +10,12 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            int x = 100;
-            Console.WriteLine(x);
+            int beforeWeight = 45;
+            int afterWeight;
+            int potetoCalorie = 10;
+            
+            afterWeight = beforeWeight + potetoCalorie;
+            Console.WriteLine("ジオくんの体重は{0}kgになっちゃった",afterWeight);
         }
     }
 }
