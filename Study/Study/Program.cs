@@ -10,24 +10,18 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            int[] testScore = {1,2,3,4,5 };
-            int i = 0;
-            while(i < testScore.Length)
-            {
-                Console.WriteLine(testScore[i]);
-                i++;
-            }
-            Console.WriteLine("\n");
+            int[] testScore = {100, 92, 71, 69, 55 };
             for(int j = 0; j < testScore.Length; j++)
             {
-                Console.WriteLine(testScore[j]);
+                if(testScore[j] % 2 == 0)
+                {
+                    Console.WriteLine("{0}は偶数です", testScore[j]);
+                }
+                else
+                {
+                    Console.WriteLine("{0}は奇数です", testScore[j]);
+                }
             }
-            Console.WriteLine("\n");
-            foreach (var item in testScore)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine("\n");
         }
     }
 }
