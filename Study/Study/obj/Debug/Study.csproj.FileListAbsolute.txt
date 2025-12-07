@@ -5,3 +5,4 @@ C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.csproj.Assembly
 C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
 C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.exe
 C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.pdb
+C:\Users\Matuo\Documents\GitTraining\Study\Study\obj\Debug\Study.exe.config
