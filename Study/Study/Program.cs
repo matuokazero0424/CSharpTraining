@@ -10,9 +10,8 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            string tmpText = "未来最高！！";
-            Console.WriteLine(tmpText);
-            Console.WriteLine(tmpText + "オマエも未来最高と叫びなさい!!!");
+            int[] testScore = {80, 90, 60, 12,50 };
+            Console.WriteLine(testScore[1]);
         }
     }
 }
