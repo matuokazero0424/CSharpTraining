@@ -16,15 +16,7 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            var p = new Point
-            {
-                x = 10,
-                y = 20
-            };
-
-            Console.WriteLine(p.x);
-            Console.WriteLine(p.y);
-
+            Console.WriteLine("Hello Wolrd!!");
         }
     }
 }
