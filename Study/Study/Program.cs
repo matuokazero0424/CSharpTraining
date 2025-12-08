@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 
 namespace Study
 {
+
+    struct Point
+    {
+        public int x;
+        public int y; 
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
-            
-        }
-
-        private static void SumFunc()
-        {
-            int sumNumber = 0;
-            for(int i = 0; i <= 10; i++)
+            var p = new Point
             {
-                sumNumber += i;
-            }
-            Console.WriteLine(sumNumber);
+                x = 10,
+                y = 20
+            };
+
+            Console.WriteLine(p.x);
+            Console.WriteLine(p.y);
+
         }
     }
 }
