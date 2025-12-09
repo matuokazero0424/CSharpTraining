@@ -12,11 +12,16 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            double pie = 3.141592;
-            double avogadoroNumber = 6.02e23;
-            float napierNumber = 2.721828f;
-
-
+            int[] score = { 77, 90, 90, 91};
+            int sum = 0;
+            int ave;
+            int subjectsNumber = score.Length;
+            foreach (int i in score)
+            {
+                sum += i;
+            }
+            ave = sum / subjectsNumber;
+            Console.WriteLine(ave);
         }
         private static void SayFunc()
         {
