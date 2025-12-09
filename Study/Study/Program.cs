@@ -12,11 +12,11 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            int 足される数 = 10;
-            int 足す数 = 2;
-            int 和;
-            和 = 足される数 + 足す数;
-            Console.WriteLine(和);
+            double pie = 3.141592;
+            double avogadoroNumber = 6.02e23;
+            float napierNumber = 2.721828f;
+
+
         }
         private static void SayFunc()
         {
