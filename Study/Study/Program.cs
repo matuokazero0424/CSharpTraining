@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 namespace Study
 {
 
-    struct Point
-    {
-        public int x;
-        public int y; 
-    }
+    
     internal class Program
     {
         static void Main(string[] args)
         {
-            IntroduceMyself();
+            int 足される数 = 10;
+            int 足す数 = 2;
+            int 和;
+            和 = 足される数 + 足す数;
+            Console.WriteLine(和);
         }
         private static void SayFunc()
         {
