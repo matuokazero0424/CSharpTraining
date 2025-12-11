@@ -12,7 +12,7 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            int[] score = { 77, 90, 90, 91};
+            int[] score = { 77, 90, 90, 91, 85, 94};
             int sum = 0;
             int ave;
             int subjectsNumber = score.Length;
