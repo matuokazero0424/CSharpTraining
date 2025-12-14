@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            CheckAdult2();
+            NoLoseFight();
         }
         private static void SayFunc()
         {
@@ -32,21 +33,6 @@ namespace Study
             var age = int.Parse(Console.ReadLine());
             Console.Write("アナタは{0}で、年齢は{1}歳です",name, age);
         }
-
-        private static void AverageView()
-        {
-            int[] score = { 77, 90, 90, 91, 85, 94, 92 };
-            int sum = 0;
-            int ave;
-            int subjectsNumber = score.Length;
-            foreach (int i in score)
-            {
-                sum += i;
-            }
-            ave = sum / subjectsNumber;
-            Console.WriteLine(ave);
-        }
-
         private static void CheckAdult()
         {
             Console.WriteLine("あなたは18歳以上ですか？あなたの年齢を入力してください。");
@@ -67,6 +53,16 @@ namespace Study
             {
                 Console.WriteLine("まだ、暖簾をくぐれません。");
             }
+        }
+
+        private static void NoLoseFight()
+        {
+            const string Ykun = "盛っている!!こんなにあるわけない!!";
+            const string Zkun = "盛っていない!!これがナチュラルな姿!!";
+            Console.WriteLine("Ykun.このイラストは{0}",Ykun );
+            Console.WriteLine("Zkun.いやいや{0}",Zkun);
+            //string kurakae = "確かにそうか";
+            
         }
 
     }
